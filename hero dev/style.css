@@ -13,7 +13,7 @@ header {
     background-color: #fff8f3;
     padding-top: 50px;
     background: url("../hero-dev-portfolio-resources/images/developer.png"), url("../hero-dev-portfolio-resources/images/header_bg.png"), #fff8f3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom left ;
     background-repeat: no-repeat;
 }
 nav {
@@ -205,6 +205,64 @@ nav .menu a {
 }
 hr {
     margin: 30px 0px;
+}
+.text-center {
+    text-align: center;
+
+}
+footer {
+    background-color: #fff8f3;
+    padding: 130px 0px;
+    margin-top: 130px;
+}
+footer .footer-content {
+    width:71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    gap: 100px;
+
+}
+footer .footer-content .social  {
+    max-width: 562px;
+}
+.footer-content .social p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer-content h2 {
+    font-size: 36px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-content .icon a {
+   margin-right: 24px;
+
+}
+.footer-content form input[type="text"] {
+    width: 460px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
+} 
+.footer-content form input[type="email"] {
+    width: 460px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
+}   
+.footer-content form textarea {
+    width: 460px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
+    resize: none;
 }
 
 
