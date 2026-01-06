@@ -3,9 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body {
-    background-color: pink;
-}
+
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
@@ -14,6 +12,9 @@ body {
 header {
     background-color: #fff8f3;
     padding-top: 50px;
+    background: url("../hero-dev-portfolio-resources/images/developer.png"), url("../hero-dev-portfolio-resources/images/header_bg.png"), #fff8f3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 nav {
     width: 71%;
@@ -50,4 +51,161 @@ nav .menu a {
     font-size: 20px;
     font-weight: bold;
     columns: white;
+    cursor: pointer;
 }
+/* banner */
+#banner {
+    /* border: 1px solid red; */
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content {
+    /* border: 1px solid blue; */
+    max-width: 585px;
+}
+#banner .banner-content h2 { 
+    font-size: 47px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1 {
+    font-size: 85px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner .banner-content p {
+    font-size: 20px;
+    color: #181818;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+}
+
+#about {
+   padding-top:130px ;
+}
+#about .about-content {
+    width:71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+ .section-heading {
+   max-width:827px;
+   text-align: center;
+    margin: 0px auto;
+ }
+ .section-heading h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+ }
+
+.section-heading p {
+        font-size: 20px;
+        color: #757575;
+        line-height: 30px;
+        margin-bottom: 30px;
+}
+
+   
+#about .about-content .about-info {
+    display: flex;
+    justify-content: space-around;
+    
+}
+ 
+.about-info .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+
+} 
+
+.about-info .info-card h4 {
+    font-size: 20px;
+    
+}
+#skills {
+    padding-top:130px ;
+}
+#skills .skills-content {
+    width:71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+#skills .skills-content .skill-box {
+    display: flex;
+    gap: 24px;
+    
+}
+.skill-box .skill-card {
+    padding: 30px;
+    /* border: 1px solid #e0e0e0; */
+    box-shadow: 0px 6px 50px 0px #000000;
+    max-width: 267px;
+}
+.skill-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h3 {
+    font-size: 24px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skill-card p {
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+#resume {
+    padding-top:130px ;
+}
+#resume .resume-content {
+    width:71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 30px;
+}
+.resume-content .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card {
+    margin-right: 50px;
+    max-width: 511px;
+}
+.resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume-card .card-text {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+hr {
+    margin: 30px 0px;
+}
+
+
+
